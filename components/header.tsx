@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Film } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
 
@@ -14,11 +14,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setIsScrolled(true)
-      } else {
-        setIsScrolled(false)
-      }
+      setIsScrolled(window.scrollY > 10)
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -46,23 +42,22 @@ export default function Header() {
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300",
-        isScrolled ? "bg-background/80 backdrop-blur-md shadow-md" : "bg-transparent",
+        isScrolled ? "bg-background/80 backdrop-blur-md shadow-md" : "bg-transparent"
       )}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" onClick={closeMenu}>
-          <img
-            src="/wc.png"
-            alt="WeCreate Logo"
-            className="h-auto w-auto max-h-25  max-w-40"
-          />
-        </Link>
-
-
+          {/* Logo */}
+          <Link href="/" onClick={closeMenu} className="flex items-center space-x-2">
+            <img
+              src="/wc.png"
+              alt="WeCreate Logo"
+              className="h-auto w-auto max-h-12 sm:max-h-14 md:max-h-16"
+            />
+          </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center justify-center space-x-8 flex-1 ml-12">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -71,19 +66,23 @@ export default function Header() {
                   "text-sm font-medium transition-colors hover:text-cyan-400",
                   pathname === link.href || pathname.startsWith(`${link.href}/`)
                     ? "text-cyan-500"
-                    : "text-muted-foreground",
+                    : "text-muted-foreground"
                 )}
               >
                 {link.name}
               </Link>
             ))}
+          </nav>
+
+          {/* Desktop Button */}
+          <div className="hidden md:flex">
             <Button asChild className="bg-gradient-1 hover:bg-cyan-600 text-white">
               <Link href="/contact">Get a Quote</Link>
             </Button>
-          </nav>
+          </div>
 
-          {/* Mobile Navigation Toggle */}
-          <div className="flex items-center space-x-4 md:hidden">
+          {/* Mobile Menu Toggle */}
+          <div className="flex md:hidden">
             <Button
               variant="ghost"
               size="icon"
@@ -97,7 +96,7 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation Menu */}
+        {/* Mobile Navigation */}
         {isOpen && (
           <div id="mobile-menu" className="md:hidden pt-4 pb-6 space-y-4">
             {navLinks.map((link) => (
@@ -108,7 +107,7 @@ export default function Header() {
                   "block py-2 text-sm font-medium transition-colors hover:text-cyan-400",
                   pathname === link.href || pathname.startsWith(`${link.href}/`)
                     ? "text-cyan-500"
-                    : "text-muted-foreground",
+                    : "text-muted-foreground"
                 )}
                 onClick={closeMenu}
               >

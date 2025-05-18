@@ -94,7 +94,7 @@ export default function Home() {
               <div className="relative aspect-square">
                 <div className="absolute -inset-4 bg-gradient-1 opacity-10 blur-3xl rounded-full"></div>
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/ph1.png?height=600&width=600"
                   alt="WeCreate Team"
                   fill
                   className="object-cover rounded-lg relative z-10"

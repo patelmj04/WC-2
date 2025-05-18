@@ -25,9 +25,9 @@ export default function HeroSection() {
           loop
           playsInline
           className="w-full h-full object-cover"
-          poster="/placeholder.svg?height=1080&width=1920"
+          poster="/ph1.png?height=1080&width=1920"
         >
-          <source src="/placeholder-video.mp4" type="video/mp4" />
+          <source src="/p1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Overlay */}
