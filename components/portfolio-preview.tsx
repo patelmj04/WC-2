@@ -92,7 +92,7 @@ export default function PortfolioPreview() {
             </p>
           </ScrollAnimation>
 
-          <ScrollStagger className="flex flex-wrap justify-center gap-2 mb-8" baseDelay={500} staggerDelay={100}>
+          {/* <ScrollStagger className="flex flex-wrap justify-center gap-2 mb-8" baseDelay={500} staggerDelay={100}>
             {filters.map((filter) => (
               <Button
                 key={filter.id}
@@ -108,7 +108,7 @@ export default function PortfolioPreview() {
                 {filter.label}
               </Button>
             ))}
-          </ScrollStagger>
+          </ScrollStagger> */}
         </div>
 
         <ScrollStagger
