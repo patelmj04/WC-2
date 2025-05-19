@@ -43,15 +43,15 @@ export default function MindBehindSection() {
           <div className="relative">
             <ScrollAnimation type="fade" delay={400} className="block">
               <div className="relative aspect-square max-w-md mx-auto lg:ml-auto">
-                <div className="absolute inset-0 bg-gradient-3 rounded-full opacity-20 blur-2xl"></div>
-                <div className="absolute inset-0 rounded-full overflow-hidden border-2 border-amber-500/30">
-                  <Image
-                    src="/placeholder.svg?height=600&width=600"
-                    alt="Alex Morgan - Founder & Creative Director"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                {/* <div className="absolute inset-0 bg-gradient-3 rounded-full opacity-20 blur-xl"></div> */}
+                              <div className="absolute inset-0 rounded-full overflow-hidden border-2 border-white/20 shadow-lg">
+                                <Image
+                                  src="/Mj - Copy.png"
+                                  alt="Mit Patel - Founder & Creative Director"
+                                  fill
+                                  className="object-cover"
+                                />
+                              </div>
               </div>
             </ScrollAnimation>
             <div className="absolute -bottom-6 -right-6 bg-gradient-3 p-4 rounded-full hidden md:flex">

@@ -29,7 +29,7 @@ export default function MindBehindPreview() {
           <div className="text-center md:text-left">
             <ScrollAnimation type="slide" direction="up" delay={400}>
               <h3 className="text-xl md:text-2xl font-bold text-white mb-1">Mit Patel</h3>
-              <p className="text-amber-400 font-medium mb-4">Founder & Creative Director</p>
+              <p className="text-amber-400 font-medium mb-4">Founder & Video Director</p>
             </ScrollAnimation>
 
             <TextReveal

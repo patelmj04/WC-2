@@ -17,39 +17,39 @@ export default function AboutClientPage() {
 
   const teamMembers = [
     {
-      name: "Sarah Johnson",
+      name: "Jayanti Patel",
+      role: "Managing Director",
+      image: "/jp.png?height=400&width=400",
+      bio: "With over 30+ years of experience in the industry, leads our team with vision and expertise.",
+    },
+    {
+      name: "Narayan Patel",
+      role: "Managing Director",
+      image: "/np.png?height=400&width=400",
+      bio: "With over 30+ years of experience in the industry, leads our team with vision and expertise.",
+      },
+    {
+      name: "Dharmesh Patel",
+      role: "Managing Director",
+      image: "/dp.png?height=400&width=400",
+      bio: "With over 15+ years of experience in the industry, leads our team with vision and expertise.",
+      },
+    {
+      name: "Rinku Patel",
+      role: "Company Strategist",
+      image: "/rp.png?height=400&width=400",
+      bio: "Rinku's innovative strategies have helped numerous brands increase their online presence.",
+    },
+    {
+      name: "Harshi Patel",
       role: "Creative Director",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "With over 15 years of experience in the creative industry, Sarah leads our team with vision and expertise.",
+      image: "/hp.png?height=400&width=400",
+      bio: "Harshi's creative skills transform photos into extraordinary visual stories.",
     },
     {
-      name: "Michael Chen",
-      role: "Lead Videographer",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "Michael's cinematic approach to video production has earned him recognition in the industry.",
-    },
-    {
-      name: "Emma Rodriguez",
-      role: "Senior Photographer",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "Emma's eye for detail and composition brings a unique perspective to every photoshoot.",
-    },
-    {
-      name: "David Wilson",
-      role: "Social Media Strategist",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "David's innovative social media strategies have helped numerous brands increase their online presence.",
-    },
-    {
-      name: "Jessica Lee",
-      role: "Photo Editor",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "Jessica's retouching skills transform good photos into extraordinary visual stories.",
-    },
-    {
-      name: "Alex Thompson",
-      role: "Motion Graphics Designer",
-      image: "/placeholder.svg?height=400&width=400",
+      name: "Mit Patel",
+      role: "Founder & Video Director",
+      image: "/Profile.png?height=400&width=400",
       bio: "Alex brings static designs to life with captivating motion graphics and animations.",
     },
   ]
@@ -156,7 +156,7 @@ export default function AboutClientPage() {
             <AnimatedText animation="fade-in" delay={900} className="block">
               <div className="relative aspect-square">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/wc-1.png?height=60&width=60"
                   alt="WeCreate Team"
                   fill
                   className="object-cover rounded-lg"
