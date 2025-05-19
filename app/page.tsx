@@ -94,7 +94,7 @@ export default function Home() {
               <div className="relative aspect-square">
                 <div className="absolute -inset-4 bg-gradient-1 opacity-10 blur-3xl rounded-full"></div>
                 <Image
-                  src="/ph1.png?height=600&width=600"
+                  src="/gd1.jpg?height=600&width=600"
                   alt="WeCreate Team"
                   fill
                   className="object-cover rounded-lg relative z-10"
@@ -110,19 +110,19 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <ScrollStagger className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center" staggerDelay={200}>
             <div className="p-6">
-              <span className="text-4xl md:text-5xl font-bold text-cyan-400 block mb-2">150+</span>
+              <span className="text-4xl md:text-5xl font-bold text-cyan-400 block mb-2">75+</span>
               <p className="text-zinc-300">Projects Completed</p>
             </div>
             <div className="p-6">
-              <span className="text-4xl md:text-5xl font-bold text-pink-400 block mb-2">50+</span>
+              <span className="text-4xl md:text-5xl font-bold text-pink-400 block mb-2">30+</span>
               <p className="text-zinc-300">Happy Clients</p>
             </div>
             <div className="p-6">
-              <span className="text-4xl md:text-5xl font-bold text-amber-400 block mb-2">8</span>
+              <span className="text-4xl md:text-5xl font-bold text-amber-400 block mb-2">5+</span>
               <p className="text-zinc-300">Years Experience</p>
             </div>
             <div className="p-6">
-              <span className="text-4xl md:text-5xl font-bold text-cyan-400 block mb-2">15</span>
+              <span className="text-4xl md:text-5xl font-bold text-cyan-400 block mb-2">12</span>
               <p className="text-zinc-300">Team Members</p>
             </div>
           </ScrollStagger>
