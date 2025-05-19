@@ -62,8 +62,8 @@ export default function MindBehindSection() {
           <div className="space-y-6">
             <ScrollAnimation type="fade" delay={500} className="block">
               <div>
-                <h3 className="text-2xl font-bold text-white">Alex Morgan</h3>
-                <p className="text-amber-400 font-medium">Founder & Creative Director</p>
+                <h3 className="text-2xl font-bold text-white">Mit Patel</h3>
+                <p className="text-amber-400 font-medium">Founder & Video Director</p>
               </div>
             </ScrollAnimation>
 
@@ -80,17 +80,16 @@ export default function MindBehindSection() {
 
             <ScrollAnimation type="fade" delay={700} className="block">
               <p className="text-zinc-400">
-                With over 15 years of experience in the creative industry, Alex has worked with global brands across
-                various sectors. Their innovative approach to visual storytelling has earned numerous industry awards
-                and recognition.
+                With over 5+ years of experience in the creative industry, he has worked with brands across
+                various sectors.
               </p>
             </ScrollAnimation>
 
             <ScrollAnimation type="fade" delay={800} className="block">
               <p className="text-zinc-400">
-                Alex's background spans film production, photography, and digital marketing, bringing a
+                Mit's background spans Video production, photography, and digital marketing, bringing a
                 multidisciplinary perspective to every project. They are passionate about mentoring the next generation
-                of creative professionals and regularly speak at industry events about the future of visual content.
+                of creative professionals and regularly get updated about the future of visual content.
               </p>
             </ScrollAnimation>
 
@@ -98,24 +97,24 @@ export default function MindBehindSection() {
               ref={skillsRef}
               className={`pt-4 flex flex-wrap gap-3 transition-all duration-700 ${skillsVisible ? "opacity-100" : "opacity-0"}`}
             >
-              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 shimmer">Film Production</span>
+              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 shimmer">Video Production</span>
               <span
                 className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-pink-400 shimmer"
                 style={{ animationDelay: "0.5s" }}
               >
-                Creative Direction
+                Creative Visual Direction
               </span>
               <span
                 className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-amber-400 shimmer"
                 style={{ animationDelay: "1s" }}
               >
-                Visual Storytelling
+                Editing
               </span>
               <span
-                className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 shimmer"
+                className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-200 shimmer"
                 style={{ animationDelay: "1.5s" }}
               >
-                Brand Strategy
+                Brand Development
               </span>
             </div>
 

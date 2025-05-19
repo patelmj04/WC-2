@@ -102,16 +102,14 @@ export default function AboutClientPage() {
               </AnimatedHeading>
               <AnimatedText animation="fade-in" delay={300}>
                 <p className="text-muted-foreground text-lg">
-                  At WeCreate, our mission is to help brands connect with their audience through authentic, high-quality
-                  visual content. We believe in the power of storytelling and its ability to create meaningful
-                  connections between brands and their customers.
+                At WeCreate, our mission is to help brands engage with their audience through authentic, high-quality visual content. We focus on creating impactful visuals that foster strong connections between brands and their customers.
+
                 </p>
               </AnimatedText>
               <AnimatedText animation="fade-in" delay={400}>
                 <p className="text-muted-foreground text-lg">
-                  Founded in 2015, we've grown from a small team of passionate creatives to a full-service creative
-                  agency serving clients across various industries. Our commitment to excellence and innovation drives
-                  everything we do.
+                 
+                Founded in 2020, we’ve evolved from a small group of passionate creatives into a full-service creative agency, serving clients across a wide range of industries. Our dedication to quality and innovation is at the core of everything we do.
                 </p>
               </AnimatedText>
               <div className="pt-4 grid grid-cols-2 gap-4">
