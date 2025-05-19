@@ -65,8 +65,8 @@ export default function ContactPageClient() {
                         <Mail className="h-6 w-6 text-cyan-400" />
                       </div>
                       <h3 className="font-medium text-lg mb-2 text-white">Email Us</h3>
-                      <a href="mailto:info@wecreate.com" className="text-cyan-400 hover:text-cyan-300">
-                        info@wecreate.com
+                      <a href="mailto:wecreated31553@gmail.com" className="text-cyan-400 hover:text-cyan-300">
+                        wecreated31553@gmail.com
                       </a>
                     </CardContent>
                   </Card>
@@ -77,8 +77,8 @@ export default function ContactPageClient() {
                         <Phone className="h-6 w-6 text-pink-400" />
                       </div>
                       <h3 className="font-medium text-lg mb-2 text-white">Call Us</h3>
-                      <a href="tel:+1234567890" className="text-pink-400 hover:text-pink-300">
-                        (123) 456-7890
+                      <a href="tel:+91-9595299039" className="text-pink-400 hover:text-pink-300">
+                        (+91) 9595299039
                       </a>
                     </CardContent>
                   </Card>
@@ -90,9 +90,9 @@ export default function ContactPageClient() {
                       </div>
                       <h3 className="font-medium text-lg mb-2 text-white">Visit Us</h3>
                       <address className="not-italic text-zinc-400">
-                        123 Creative St, Suite 100
+                        Nagpur
                         <br />
-                        New York, NY 10001
+                        Maharashtra, IND 
                       </address>
                     </CardContent>
                   </Card>
@@ -106,7 +106,7 @@ export default function ContactPageClient() {
                       <p className="text-zinc-400">
                         Monday - Friday
                         <br />
-                        9:00 AM - 6:00 PM
+                        10:00 AM - 5:00 PM
                       </p>
                     </CardContent>
                   </Card>
@@ -115,7 +115,7 @@ export default function ContactPageClient() {
                 <div className="pt-6">
                   <h3 className="font-medium text-lg mb-4 text-white">Connect With Us</h3>
                   <div className="flex space-x-4">
-                    <Link href="https://instagram.com/wecreate.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://instagram.com/wecreate.__" target="_blank" rel="noopener noreferrer">
                       <Button
                         variant="outline"
                         size="icon"
@@ -171,7 +171,7 @@ export default function ContactPageClient() {
 
             <div className="aspect-[16/9] w-full max-w-5xl mx-auto overflow-hidden rounded-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.11976397304605!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1620796867952!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4268352747454!2d79.0781203!3d21.1354053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c090518ab6c9%3A0x9ad347d59239fc7f!2sNetcom%20System%20-%20Data%20Recovery%20Centre!5e0!3m2!1sen!2sin!4v1747654671978!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

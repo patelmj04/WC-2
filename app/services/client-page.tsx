@@ -28,7 +28,7 @@ export default function ServicesClientPage() {
         "Motion Graphics",
       ],
       link: "/services/video-production",
-      image: "/ph2.jpeg?height=600&width=800",
+      image: "/pro.jpg?height=600&width=800",
     },
     {
       icon: <Camera className="h-12 w-12 text-pink-500" />,
@@ -58,7 +58,7 @@ export default function ServicesClientPage() {
         "HDR Processing",
       ],
       link: "/services/photo-editing",
-      image: "/ph5.png?height=600&width=800",
+      image: "/pts.jpg?height=600&width=800",
     },
     {
       icon: <Instagram className="h-12 w-12 text-pink-500" />,
@@ -73,7 +73,7 @@ export default function ServicesClientPage() {
         "Influencer Marketing",
       ],
       link: "/services/social-media-marketing",
-      image: "/ph7.png?height=600&width=800",
+      image: "/smm1.jpg?height=600&width=800",
     },
     {
       icon: <Megaphone className="h-12 w-12 text-cyan-500" />,
@@ -211,16 +211,6 @@ export default function ServicesClientPage() {
                       ))}
                     </ul>
                   </div>
-
-                  <div className="pt-4">
-                    <AnimatedText animation="fade-up" delay={400}>
-                      <Button asChild className="bg-gradient-1 hover:bg-cyan-600 text-white">
-                        <Link href={service.link}>
-                          Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                        </Link>
-                      </Button>
-                    </AnimatedText>
-                  </div>
                 </div>
 
                 <div className={`relative aspect-[4/3] ${index % 2 === 1 ? "lg:order-1" : ""}`}>
@@ -239,7 +229,7 @@ export default function ServicesClientPage() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-16 md:py-24 bg-zinc-900">
+      {/* <section className="py-16 md:py-24 bg-zinc-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <AnimatedText animation="fade-in" delay={100}>
@@ -379,7 +369,7 @@ export default function ServicesClientPage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-2">
