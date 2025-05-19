@@ -9,10 +9,10 @@ export default function InstagramFeed() {
   const instagramPosts = [
     {
       id: "1",
-      image: "/placeholder.svg?height=600&width=600",
+      image: "/ph1.png?height=600&width=600",
       likes: 245,
       comments: 18,
-      link: "https://instagram.com/p/example1",
+      link: "https://www.instagram.com/p/CrgEPoqA-pj/",
     },
     {
       id: "2",
