@@ -140,7 +140,7 @@ export default function PortfolioPreview() {
           ))}
         </ScrollStagger>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <ScrollAnimation type="slide" direction="up" delay={800}>
             <Button asChild className="bg-gradient-1 hover:bg-cyan-600 text-white">
               <Link href="/portfolio">
@@ -148,7 +148,7 @@ export default function PortfolioPreview() {
               </Link>
             </Button>
           </ScrollAnimation>
-        </div>
+        </div> */}
       </div>
     </section>
   )

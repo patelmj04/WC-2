@@ -34,7 +34,7 @@ export default function PortfolioClientPage() {
       id: 2,
       title: "Product Photography",
       category: "photo",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/gym.png?height=600&width=800",
       client: "Tech Innovations Inc.",
       description: "High-quality product photography for a new tech gadget launch.",
     },

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Instagram, CheckCircle } from "lucide-react"
 import HeroSection from "@/components/hero-section"
 import ServicesSection from "@/components/services-section"
-import PortfolioPreview from "@/components/portfolio-preview"
+// import PortfolioPreview from "@/components/portfolio-preview"
 import TestimonialsSection from "@/components/testimonials-section"
 import InstagramFeed from "@/components/instagram-feed"
 // import BlogPreview from "@/components/blog-preview"
@@ -138,7 +138,7 @@ export default function Home() {
       
 
       {/* Portfolio Preview */}
-      <PortfolioPreview />
+      {/* <PortfolioPreview /> */}
 
       {/* Testimonials Section */}
       <TestimonialsSection />
@@ -213,14 +213,14 @@ export default function Home() {
             <Button asChild size="lg" className="bg-white text-pink-600 hover:bg-pink-100">
               <Link href="/contact">Get a Quote</Link>
             </Button>
-            <Button
+            {/* <Button
               asChild
               size="lg"
               variant="outline"
               className="bg-transparent border-white text-white hover:bg-white/10"
             >
               <Link href="/portfolio">View Our Work</Link>
-            </Button>
+            </Button> */}
           </ScrollStagger>
         </div>
       </section>

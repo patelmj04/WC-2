@@ -373,7 +373,7 @@ export default function ServicesClientPage() {
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-2">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4 text-left">
           <AnimatedHeading
             as="h2"
             className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white"
@@ -389,18 +389,18 @@ export default function ServicesClientPage() {
             </p>
           </AnimatedText>
           <AnimatedText animation="fade-up" delay={700}>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <div className="flex flex-col sm:flex-row justify-left gap-6">
               <Button asChild size="lg" className="bg-white text-pink-600 hover:bg-pink-100">
                 <Link href="/contact">Get a Quote</Link>
               </Button>
-              <Button
+              {/* <Button
                 asChild
                 size="lg"
                 variant="outline"
                 className="bg-transparent border-white text-white hover:bg-white/10"
               >
                 <Link href="/portfolio">View Our Work</Link>
-              </Button>
+              </Button> */}
             </div>
           </AnimatedText>
         </div>

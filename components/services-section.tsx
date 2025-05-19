@@ -98,13 +98,6 @@ export default function ServicesSection() {
                   {service.description}
                 </CardDescription>
               </CardContent>
-              <CardFooter className="pt-0">
-                <Button variant="ghost" asChild className="p-0 hover:bg-transparent text-cyan-400 hover:text-cyan-300">
-                  <Link href={service.link} className="flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Link>
-                </Button>
-              </CardFooter>
             </Card>
           ))}
         </ScrollStagger>
