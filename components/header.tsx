@@ -76,7 +76,7 @@ export default function Header() {
 
           {/* Desktop Button */}
           <div className="hidden md:flex">
-            <Button asChild className="bg-gradient-1 hover:bg-cyan-600 text-white">
+            <Button asChild className="bg-gradient-1 hover:bg-cyan-60 text-white">
               <Link href="/contact">Get a Quote</Link>
             </Button>
           </div>
