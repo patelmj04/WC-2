@@ -31,7 +31,7 @@ export default function HeroSection() {
           Your browser does not support the video tag.
         </video>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50 bg-gradient-to-t from-black via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-black/10 bg-gradient-to-t from-black via-black/30 to-transparent" />
       </div>
 
       {/* Parallax Elements */}
