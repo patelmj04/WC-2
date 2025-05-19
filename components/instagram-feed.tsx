@@ -16,10 +16,10 @@ export default function InstagramFeed() {
     },
     {
       id: "2",
-      image: "/d2.png?height=600&width=600",
-      likes: 189,
+      image: "/d6.png?height=600&width=600",
+      likes: 255,
       comments: 12,
-      link: "https://instagram.com/p/example2",
+      link: "https://www.instagram.com/p/DGsxX4_iBph/",
     },
     {
       id: "3",
@@ -31,15 +31,15 @@ export default function InstagramFeed() {
     {
       id: "4",
       image: "/d4.png?height=600&width=600",
-      likes: 278,
+      likes: 478,
       comments: 15,
       link: "https://www.instagram.com/p/DGnCQw9iDeW/",
     },
     {
       id: "5",
       image: "/d5.png?height=600&width=600",
-      likes: 412,
-      comments: 32,
+      likes: 4152,
+      comments: 312,
       link: "https://www.instagram.com/p/DBLD96PNJzo/",
     },
     {
