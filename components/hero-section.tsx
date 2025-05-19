@@ -31,7 +31,7 @@ export default function HeroSection() {
           Your browser does not support the video tag.
         </video>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/10 bg-gradient-to-t from-black via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-black/20 bg-gradient-to-t from-black via-black/30 to-transparent" />
       </div>
 
       {/* Parallax Elements */}
@@ -75,7 +75,7 @@ export default function HeroSection() {
               <Button asChild size="lg" className="text-base bg-gradient-1 hover:bg-cyan-600 text-white">
                 <Link href="/services">Explore Our Services</Link>
               </Button>
-              <Dialog>
+              {/* <Dialog>
                 <DialogTrigger asChild>
                   <Button
                     variant="outline"
@@ -99,7 +99,7 @@ export default function HeroSection() {
                     ></iframe>
                   </div>
                 </DialogContent>
-              </Dialog>
+              </Dialog> */}
             </div>
           </AnimatedText>
         </div>
