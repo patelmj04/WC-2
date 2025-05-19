@@ -13,20 +13,20 @@ export default function PortfolioClientPage() {
   const [selectedItem, setSelectedItem] = useState(null)
 
   const filters = [
-    { id: "all", label: "All" },
-    { id: "video", label: "Video" },
-    { id: "photo", label: "Photo" },
-    { id: "design", label: "Design" },
-    { id: "social", label: "Social Media" },
+    // { id: "all", label: "All" },
+    // { id: "video", label: "Video" },
+    // { id: "photo", label: "Photo" },
+    // { id: "design", label: "Design" },
+    // { id: "social", label: "Social Media" },
   ]
 
   const portfolioItems = [
     {
       id: 1,
-      title: "Brand Campaign Video",
+      title: "Brand Video",
       category: "video",
-      image: "/placeholder.svg?height=600&width=800",
-      client: "Fashion Brand Co.",
+      image: "/dc.png?height=600&width=800",
+      client: "Dc_rcoem",
       description: "A promotional video campaign showcasing the latest collection for a fashion brand.",
       videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     },
