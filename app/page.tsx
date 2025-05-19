@@ -171,7 +171,7 @@ export default function Home() {
           <InstagramFeed />
           <div className="text-center mt-8">
             <ScrollAnimation type="slide" direction="up" delay={300}>
-              <Button variant="outline" asChild className="border-pink-500 text-pink-400 hover:bg-pink-500/10">
+              <Button variant="outline" asChild className="border-pink-800 text-pink-100 hover:bg-pink-500/50">
                 <Link href="https://instagram.com/wecreate.__" target="_blank" rel="noopener noreferrer">
                   <Instagram className="mr-2 h-4 w-4" /> Follow on Instagram
                 </Link>
@@ -182,7 +182,7 @@ export default function Home() {
       </section>
 
       {/* Blog Preview */}
-      <BlogPreview />
+      {/* <BlogPreview /> */}
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-2 relative overflow-hidden">

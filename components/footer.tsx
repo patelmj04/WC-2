@@ -47,8 +47,8 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="space-y-4">
-            <h3 className="text-lg font-bold text-white">Quick Links</h3>
+          <div className="space-y-4 align-center">
+            <h3 className="text-lg font-bold text-white " >Quick Links</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/services" className="text-zinc-400 hover:text-cyan-400 transition-colors">
@@ -104,9 +104,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* <div className="space-y-4">
-            <h3 className="text-lg font-bold text-white">Newsletter</h3>
-            <p className="text-zinc-400">Subscribe to our newsletter for the latest updates and offers.</p>
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-white">Get In Touch</h3>
+            <p className="text-zinc-400">For the latest updates and offers.</p>
             <form
               className="space-y-2"
               onSubmit={(e: React.FormEvent<HTMLFormElement>) => {
@@ -115,30 +115,16 @@ export default function Footer() {
                 console.log("Newsletter form submitted")
               }}
             >
-              <Input
-                type="email"
-                placeholder="Your email address"
-                required
-                className="bg-zinc-900 border-zinc-700 text-white placeholder:text-zinc-500 focus:border-purple-500"
-              />
-              <Button type="submit" className="w-full bg-gradient-1 hover:bg-cyan-600 text-white">
-                Subscribe
-              </Button>
+              
+              
             </form>
-          </div> */}
+          </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-zinc-800">
           <div className="flex flex-col md:flex-row center justify-center items-center">
             <p className="text-sm text-zinc-500">&copy; {new Date().getFullYear()} WeCreate. All rights reserved.</p>
-            {/* <div className="flex space-x-4 mt-4 md:mt-0">
-              <Link href="/privacy-policy" className="text-sm text-zinc-500 hover:text-cyan-400 transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="/terms-of-service" className="text-sm text-zinc-500 hover:text-pink-400 transition-colors">
-                Terms of Service
-              </Link>
-            </div> */}
+          
           </div>
         </div>
       </div>

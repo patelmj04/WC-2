@@ -6,6 +6,8 @@ import ClientLayout from "./client-layout"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
+  img: "/wc.png",
+  url: "https://www.instagram.com/wecreate.__/",
   title: "WeCreate | Video, Photo & SMM",
   description: "Professional video and photo editing, production, and social media marketing services.",
     generator: 'Mj'
