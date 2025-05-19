@@ -17,33 +17,33 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      company: "Fashion Brand Co.",
-      image: "/placeholder.svg?height=100&width=100",
+      // name: "Sarah Johnson",
+      // company: "Fashion Brand Co.",
+      // image: "/placeholder.svg?height=100&width=100",
       rating: 5,
       text: "WeCreate transformed our brand's visual identity with stunning photography and video content. Their team was professional, creative, and delivered beyond our expectations.",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      company: "Tech Innovations Inc.",
-      image: "/placeholder.svg?height=100&width=100",
+      // name: "Michael Chen",
+      // company: "Tech Innovations Inc.",
+      // image: "/placeholder.svg?height=100&width=100",
       rating: 5,
       text: "The social media marketing strategy developed by WeCreate helped us increase our engagement by 200%. Their content is top-notch and their team is responsive and easy to work with.",
     },
     {
       id: 3,
-      name: "Emma Rodriguez",
-      company: "Lifestyle Blog",
-      image: "/placeholder.svg?height=100&width=100",
+      // name: "Emma Rodriguez",
+      // company: "Lifestyle Blog",
+      // image: "/placeholder.svg?height=100&width=100",
       rating: 5,
       text: "I've worked with many creative agencies, but WeCreate stands out for their attention to detail and commitment to quality. They truly understand my vision and bring it to life beautifully.",
     },
     {
       id: 4,
-      name: "David Wilson",
-      company: "Event Management Co.",
-      image: "/placeholder.svg?height=100&width=100",
+      // name: "David Wilson",
+      // company: "Event Management Co.",
+      // image: "/placeholder.svg?height=100&width=100",
       rating: 5,
       text: "WeCreate's event coverage is exceptional. They captured all the key moments of our corporate event and delivered a highlight video that perfectly showcased the atmosphere and energy.",
     },
@@ -113,14 +113,14 @@ export default function TestimonialsSection() {
                   <Card className="border-zinc-700 bg-zinc-800 shadow-lg">
                     <CardContent className="pt-6">
                       <div className="flex flex-col items-center text-center">
-                        <div className="relative w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-cyan-500">
+                        {/* <div className="relative w-20 h-20 rounded-full overflow-hidden mb-4 border-2 border-cyan-500">
                           <Image
                             src={testimonial.image || "/placeholder.svg"}
                             alt={testimonial.name}
                             fill
                             className="object-cover"
                           />
-                        </div>
+                        </div> */}
                         <div className="flex mb-4">
                           {[...Array(testimonial.rating)].map((_, i) => (
                             <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />

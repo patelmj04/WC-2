@@ -149,7 +149,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <ScrollAnimation type="fade" delay={100}>
               <Badge variant="outline" className="px-3 py-1 mb-4 border-pink-500 text-pink-400">
-                Follow Us @wecreate.com
+                Follow Us @wecreate.__
               </Badge>
             </ScrollAnimation>
 
