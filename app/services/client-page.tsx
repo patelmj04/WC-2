@@ -389,7 +389,7 @@ export default function ServicesClientPage() {
             </p>
           </AnimatedText>
           <AnimatedText animation="fade-up" delay={700}>
-            <div className="flex flex-col sm:flex-row justify-left gap-6">
+            <div className="flex flex-col sm:flex-row justify-stretch items-center gap-4">
               <Button asChild size="lg" className="bg-white text-pink-600 hover:bg-pink-100">
                 <Link href="/contact">Get a Quote</Link>
               </Button>

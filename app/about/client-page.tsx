@@ -324,14 +324,14 @@ export default function AboutClientPage() {
               <Button asChild size="lg" variant="secondary">
                 <Link href="/contact">Get in Touch</Link>
               </Button>
-              <Button
+              {/* <Button
                 asChild
                 size="lg"
                 variant="outline"
                 className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
               >
                 <Link href="/portfolio">View Our Work</Link>
-              </Button>
+              </Button> */}
             </div>
           </AnimatedText>
         </div>
