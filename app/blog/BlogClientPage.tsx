@@ -1,18 +1,18 @@
-// "use client"
+"use client"
 
-// import type React from "react"
+import type React from "react"
 
-// import Link from "next/link"
-// import Image from "next/image"
-// import { Button } from "@/components/ui/button"
-// import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-// import { Badge } from "@/components/ui/badge"
-// import { ArrowRight, Calendar, Clock, Search } from "lucide-react"
-// import { Input } from "@/components/ui/input"
+import Link from "next/link"
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { ArrowRight, Calendar, Clock, Search } from "lucide-react"
+import { Input } from "@/components/ui/input"
 
-// export default function BlogClientPage() {
+export default function BlogClientPage() {
 //   const blogPosts = [
-//     {
+    // {
 //       id: 1,
 //       title: "10 Tips for Creating Engaging Social Media Content",
 //       excerpt:
@@ -229,4 +229,4 @@
 //       </section>
 //     </div>
 //   )
-// }
+}
