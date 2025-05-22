@@ -6,12 +6,15 @@ import ClientLayout from "./client-layout"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  img: "/wc.png",
-  url: "https://www.instagram.com/wecreate.__/",
   title: "WeCreate | Video, Photo & SMM",
   description: "Professional video and photo editing, production, and social media marketing services.",
-    generator: 'Mj'
+  generator: 'Mj',
+  metadataBase: new URL("https://www.instagram.com/wecreate.__/"),
+  icons: {
+    icon: "/w.png", // or "/favicon.ico" if you're using that format
+  },
 }
+
 
 export default function RootLayout({
   children,
