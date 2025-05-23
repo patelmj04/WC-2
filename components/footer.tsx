@@ -124,7 +124,7 @@ export default function Footer() {
       <div className="mt-12 pt-8 border-t border-zinc-800">
       <div className="flex flex-col md:flex-row justify-between items-center w-full px-6 py-4">
       <p className="text-sm text-zinc-500">&copy; {new Date().getFullYear()} WeCreate. All rights reserved.</p>
-      <p className="text-sm text-zinc-500">Mit Patel</p>
+      <p className="text-sm text-zinc-500">Designed By - Mit Patel</p>
       </div>
       </div>
       </div>
