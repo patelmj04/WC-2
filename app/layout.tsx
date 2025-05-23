@@ -11,7 +11,7 @@ export const metadata = {
   generator: 'Mj',
   metadataBase: new URL("https://www.instagram.com/wecreate.__/"),
   icons: {
-    icon: "/w.png", // or "/favicon.ico" if you're using that format
+    icon: "/w.png", 
   },
 }
 
