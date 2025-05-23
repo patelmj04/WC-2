@@ -123,9 +123,14 @@ export default function Footer() {
 
       <div className="mt-12 pt-8 border-t border-zinc-800">
       <div className="flex flex-col md:flex-row justify-between items-center w-full px-6 py-4">
-      <p className="text-sm text-zinc-500">&copy; {new Date().getFullYear()} WeCreate. All rights reserved.</p>
-      <p className="text-sm text-zinc-500">Designed By - Mit Patel</p>
-      </div>
+  <p className="text-sm text-zinc-500">
+    &copy; {new Date().getFullYear()} WeCreate. All rights reserved.
+  </p>
+  <p className="text-sm text-zinc-500">
+    Designed By - <a href="https://patelmj.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-700">Mit Patel</a>
+  </p>
+</div>
+
       </div>
       </div>
     </footer>
