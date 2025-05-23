@@ -55,11 +55,11 @@ export default function Footer() {
                   Services
                 </Link>
               </li>
-              <li>
+{/*               <li>
                 <Link href="/portfolio" className="text-zinc-400 hover:text-pink-400 transition-colors">
                   Portfolio
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/about" className="text-zinc-400 hover:text-amber-400 transition-colors">
                   About Us
