@@ -321,9 +321,9 @@ export default function AboutClientPage() {
           </AnimatedText>
           <AnimatedText animation="fade-up" delay={300}>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button asChild size="lg" variant="secondary">
+{/*               <Button asChild size="lg" variant="secondary">
                 <Link href="/contact">Get in Touch</Link>
-              </Button>
+              </Button> */}
               {/* <Button
                 asChild
                 size="lg"
