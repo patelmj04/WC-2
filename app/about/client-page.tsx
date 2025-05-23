@@ -25,7 +25,7 @@ export default function AboutClientPage() {
     {
       name: "Narayan Patel",
       role: "Managing Director",
-      image: "/np.png?height=400&width=400",
+      image: "/NP.png?height=400&width=400",
       bio: "With over 30+ years of experience in the industry, leads our team with vision and expertise.",
       },
     {
