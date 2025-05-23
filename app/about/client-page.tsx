@@ -50,7 +50,7 @@ export default function AboutClientPage() {
       name: "Mit Patel",
       role: "Founder & Video Director",
       image: "/Profile.png?height=400&width=400",
-      bio: "Alex brings static designs to life with captivating motion graphics and animations.",
+      bio: "Mit brings static designs to life with captivating motion graphics and animations.",
     },
   ]
 
