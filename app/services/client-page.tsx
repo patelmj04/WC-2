@@ -373,7 +373,7 @@ export default function ServicesClientPage() {
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-gradient-2">
-        <div className="container mx-auto px-4 text-left">
+        <div className="container mx-auto px-4 text-center">
           <AnimatedHeading
             as="h2"
             className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white"
@@ -384,7 +384,7 @@ export default function ServicesClientPage() {
             Ready to Start Your Project?
           </AnimatedHeading>
           <AnimatedText animation="fade-in" delay={500}>
-            <p className="text-pink-100 text-lg max-w-2xl mx-auto mb-8 justify-center">
+            <p className="text-pink-100 text-lg max-w-2xl mx-auto mb-8">
               Let's collaborate to bring your creative vision to life. Contact us today for a free consultation.
             </p>
           </AnimatedText>
