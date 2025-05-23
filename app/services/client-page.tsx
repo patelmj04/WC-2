@@ -384,7 +384,7 @@ export default function ServicesClientPage() {
             Ready to Start Your Project?
           </AnimatedHeading>
           <AnimatedText animation="fade-in" delay={500}>
-            <p className="text-pink-100 text-lg max-w-2xl mx-auto mb-8">
+            <p className="text-pink-100 text-lg max-w-2xl mx-auto mb-8 justify-center">
               Let's collaborate to bring your creative vision to life. Contact us today for a free consultation.
             </p>
           </AnimatedText>
