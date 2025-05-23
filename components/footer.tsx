@@ -65,11 +65,11 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
+{/*               <li>
                 <Link href="/blog" className="text-zinc-400 hover:text-cyan-400 transition-colors">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contact" className="text-zinc-400 hover:text-pink-400 transition-colors">
                   Contact
