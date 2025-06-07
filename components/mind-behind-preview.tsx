@@ -47,8 +47,8 @@ export default function MindBehindPreview() {
                 variant="outline"
                 className="border-amber-500 text-amber-400 hover:bg-amber-500/10"
               >
-                <Link href="https://patelmj.vercel.app/" className="flex items-center">
-                  check my portfolio <ArrowRight className="ml-2 h-4 w-4" />
+                <Link href="https://patelmj.vercel.app/" target="_blank" className="flex items-center">
+                  My Portfolio <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </ScrollAnimation>
