@@ -29,7 +29,7 @@ export default function PortfolioClientPage() {
       title: "Social Media Coverage",
       category: "social",
       image: "/smc.png?height=600&width=800",
-      videoUrl: "https://www.instagram.com/p/DJv4utAyKNj/",
+      videoUrl: "https://www.instagram.com/p/DBLD96PNJzo/",
     },
     {
       id: 4,
@@ -47,9 +47,10 @@ export default function PortfolioClientPage() {
     },
     {
       id: 6,
-      title: "Brand Identity Design",
-      category: "design",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "Video Edits",
+      category: "Editing",
+      image: "/e.png?height=600&width=800",
+      videoUrl: "https://www.instagram.com/p/DKjRKr8ypSr/",
     },
     {
       id: 7,
@@ -90,7 +91,7 @@ export default function PortfolioClientPage() {
       title: "Instagram Strategy",
       category: "social",
       image: "/wcc.png?height=600&width=800",
-      videoUrl: "https://www.instagram.com/p/DKjRKr8ypSr/?hl=en",
+      videoUrl: "https://www.instagram.com/reel/DE4OEmvK6kb/",
     },
   ]
 
