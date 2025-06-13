@@ -31,19 +31,34 @@ export default function ContactPageClient() {
       }}
     >
       <div className="flex flex-col bg-black text-white">
-        {/* Hero Section */}
-        <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-zinc-900">
-          <div className="container mx-auto px-4 text-center">
-            <Badge variant="outline" className="px-3 py-1 mb-4 border-cyan-500 text-cyan-400">
-              Contact Us
-            </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white">Get In Touch</h1>
-            <p className="text-zinc-400 text-lg max-w-2xl mx-auto mb-8">
-              Have a project in mind? We'd love to hear from you. Reach out to us and let's create something amazing
-              together.
-            </p>
-          </div>
-        </section>
+   {/* Hero Section */}
+<section className="relative h-[100vh] md:h-[80vh] overflow-hidden flex items-center justify-center bg-zinc-900">
+  {/* Background Video */}
+  <video
+    className="absolute inset-0 w-full h-full object-cover z-0"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source src="/cu.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  {/* Overlay */}w
+  <div className="absolute inset-0 bg-black/80 z-10" />
+
+  {/* Content */}
+  <div className="relative z-20 text-center px-4 text-white max-w-3xl">
+    <Badge variant="outline" className="px-3 py-1 mb-4 border-cyan-500 text-cyan-400">
+      Contact Us
+    </Badge>
+    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Get In Touch</h1>
+    <p className="text-zinc-300 text-lg max-w-2xl mx-auto">
+      Have a project in mind? We'd love to hear from you. Reach out to us and let's create something amazing together.
+    </p>
+  </div>
+</section>
 
         {/* Contact Information */}
         <section className="py-16 md:py-24">

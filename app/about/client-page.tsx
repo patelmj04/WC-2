@@ -56,31 +56,47 @@ export default function AboutClientPage() {
 
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-muted">
-        <div className="container mx-auto px-4 text-center">
-          <AnimatedText animation="fade-in" delay={100}>
-            <Badge variant="outline" className="px-3 py-1 mb-4">
-              About Us
-            </Badge>
-          </AnimatedText>
-          <AnimatedHeading
-            as="h1"
-            className="text-4xl md:text-5xl font-bold tracking-tight mb-4"
-            animation="fade-up"
-            delay={200}
-            words
-          >
-            Our Story
-          </AnimatedHeading>
-          <AnimatedText animation="fade-in" delay={500}>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-              We're a team of passionate creatives dedicated to helping brands tell their stories through compelling
-              visual content.
-            </p>
-          </AnimatedText>
-        </div>
-      </section>
+      <section className="relative h-[100vh] md:h-[60vh] overflow-hidden flex items-center justify-center">
+  {/* Background Video */}
+  <video
+    className="absolute inset-0 w-full h-full object-cover z-0"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source src="/10.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/80 z-10"></div>
+
+  {/* Content */}
+  <div className="relative z-20 text-center px-4 text-white max-w-3xl">
+    <AnimatedText animation="fade-in" delay={100}>
+      <Badge variant="outline" className="px-3 py-1 mb-4 text-white border-white">
+        About Us
+      </Badge>
+    </AnimatedText>
+    <AnimatedHeading
+      as="h1"
+      className="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+      animation="fade-up"
+      delay={200}
+      words
+    >
+      Our Story
+    </AnimatedHeading>
+    <AnimatedText animation="fade-in" delay={500}>
+      <p className="text-lg text-white/80 mb-8">
+        We're a team of passionate creatives dedicated to helping brands tell their stories through compelling
+        visual content.
+      </p>
+    </AnimatedText>
+  </div>
+</section>
+
 
       {/* Mission Section */}
       <section className="py-16 md:py-24">

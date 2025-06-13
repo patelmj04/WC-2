@@ -112,56 +112,76 @@ export default function ServicesClientPage() {
   return (
     <div className="flex flex-col bg-black text-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-zinc-900">
-        <div className="container mx-auto px-4 text-center">
-          <AnimatedText animation="fade-in" delay={100}>
-            <Badge variant="outline" className="px-3 py-1 mb-4 border-purple-500 text-purple-400">
-              Our Services
-            </Badge>
-          </AnimatedText>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-white">
-            <AnimatedText animation="fade-up" delay={200} className="block mb-2">
-              <span className="text-gradient-pink">Creative Services</span>
-            </AnimatedText>
-            <AnimatedText animation="fade-up" delay={400} className="block">
-              for Your Brand
-            </AnimatedText>
-          </h1>
-          <AnimatedText animation="fade-in" delay={600}>
-            <p className="text-zinc-400 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-              We offer a comprehensive range of <span className="text-pink-400 font-medium">creative solutions</span> to
-              help your brand stand out in today's competitive market.
-            </p>
-          </AnimatedText>
-          <div className="flex flex-wrap justify-center gap-3 mt-8">
-            <FloatingElement amplitude={5} period={4} delay={0}>
-              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 border border-cyan-500/20">
-                Video Production
-              </span>
-            </FloatingElement>
-            <FloatingElement amplitude={5} period={4} delay={0.5}>
-              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-pink-400 border border-pink-500/20">
-                Photography
-              </span>
-            </FloatingElement>
-            <FloatingElement amplitude={5} period={4} delay={1}>
-              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-amber-400 border border-amber-500/20">
-                Photo Editing
-              </span>
-            </FloatingElement>
-            <FloatingElement amplitude={5} period={4} delay={1.5}>
-              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 border border-cyan-500/20">
-                Social Media
-              </span>
-            </FloatingElement>
-            <FloatingElement amplitude={5} period={4} delay={2}>
-              <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-pink-400 border border-pink-500/20">
-                Content Strategy
-              </span>
-            </FloatingElement>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section */}
+<section className="relative pt-32 pb-16 md:pt-40 md:pb-24 bg-black overflow-hidden">
+  {/* Background Video */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    preload="auto"
+    className="absolute top-0 left-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
+  >
+    <source src="/cs1.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  {/* Overlay (optional for darkening the video) */}
+  <div className="absolute inset-0 bg-black/0 z-0" />
+
+  {/* Hero Content */}
+  <div className="relative z-10 container mx-auto px-4 text-center">
+    <AnimatedText animation="fade-in" delay={100}>
+      <Badge variant="outline" className="px-3 py-1 mb-4 border-purple-500 text-purple-400">
+        Our Services
+      </Badge>
+    </AnimatedText>
+
+    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-white">
+      <AnimatedText animation="fade-up" delay={200} className="block mb-2">
+        <span className="text-gradient-pink">Creative Services</span>
+      </AnimatedText>
+      <AnimatedText animation="fade-up" delay={400} className="block">
+        for Your Brand
+      </AnimatedText>
+    </h1>
+
+    <AnimatedText animation="fade-in" delay={600}>
+      <p className="text-zinc-300 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+        We offer a comprehensive range of <span className="text-pink-400 font-medium">creative solutions</span> to help your brand stand out in today's competitive market.
+      </p>
+    </AnimatedText>
+
+    <div className="flex flex-wrap justify-center gap-3 mt-8">
+      <FloatingElement amplitude={5} period={4} delay={0}>
+        <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 border border-cyan-500/20">
+          Video Production
+        </span>
+      </FloatingElement>
+      <FloatingElement amplitude={5} period={4} delay={0.5}>
+        <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-pink-400 border border-pink-500/20">
+          Photography
+        </span>
+      </FloatingElement>
+      <FloatingElement amplitude={5} period={4} delay={1}>
+        <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-amber-400 border border-amber-500/20">
+          Photo Editing
+        </span>
+      </FloatingElement>
+      <FloatingElement amplitude={5} period={4} delay={1.5}>
+        <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 border border-cyan-500/20">
+          Social Media
+        </span>
+      </FloatingElement>
+      <FloatingElement amplitude={5} period={4} delay={2}>
+        <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-pink-400 border border-pink-500/20">
+          Content Strategy
+        </span>
+      </FloatingElement>
+    </div>
+  </div>
+</section>
 
       {/* Services Section */}
       <section className="py-16 md:py-24">
