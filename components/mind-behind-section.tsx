@@ -69,7 +69,7 @@ export default function MindBehindSection() {
 
             <div
               ref={quoteRef}
-              className={`relative pl-6 border-l-2 border-amber-500 italic text-lg text-zinc-300 transition-all duration-500 ${quoteVisible ? "opacity-100" : "opacity-0 translate-y-4"}`}
+              className={`relative pl-6 border-l-2 border-amber-500 italic text-lg text-zinc-300 transition-all duration-150 ${quoteVisible ? "opacity-100" : "opacity-0 translate-y-4"}`}
             >
               <p>
                 "I founded WeCreate with a simple mission: to help brands tell authentic stories through powerful visual
@@ -95,24 +95,24 @@ export default function MindBehindSection() {
 
             <div
               ref={skillsRef}
-              className={`pt-4 flex flex-wrap gap-3 transition-all duration-700 ${skillsVisible ? "opacity-100" : "opacity-0"}`}
+              className={`pt-4 flex flex-wrap gap-3 transition-all duration-100 ${skillsVisible ? "opacity-100" : "opacity-0"}`}
             >
               <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-400 shimmer">Video Production</span>
               <span
                 className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-pink-400 shimmer"
-                style={{ animationDelay: "0.5s" }}
+                style={{ animationDelay: "0.1s" }}
               >
                 Creative Visual Direction
               </span>
               <span
                 className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-amber-400 shimmer"
-                style={{ animationDelay: "1s" }}
+                style={{ animationDelay: "0.2s" }}
               >
                 Editing
               </span>
               <span
                 className="px-3 py-1 bg-zinc-800 rounded-full text-sm text-cyan-200 shimmer"
-                style={{ animationDelay: "1.5s" }}
+                style={{ animationDelay: "0.3s" }}
               >
                 Brand Development
               </span>

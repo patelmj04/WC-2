@@ -124,10 +124,10 @@ export default function PortfolioPreview() {
                   src={item.image || "/ph1.webp"}
                   alt={item.title}
                   fill
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-250 group-hover:scale-110"
                   direction="left"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-150 flex items-end">
                   <div className="p-4 w-full">
                     <h3 className="text-white font-medium text-lg">{item.title}</h3>
                     <Badge variant="outline" className="mt-2 text-cyan-400 border-cyan-500/50">

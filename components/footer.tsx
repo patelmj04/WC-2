@@ -127,7 +127,7 @@ export default function Footer() {
     &copy; {new Date().getFullYear()} WeCreate. All rights reserved.
   </p>
   <p className="text-sm text-zinc-500">
-    Designed By - <a href="https://patelmj.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-700">Mit Patel</a>
+    Designed By - <a href="https://patelmj.tech" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-700">Mit Patel</a>
   </p>
 </div>
 

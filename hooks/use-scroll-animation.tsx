@@ -23,12 +23,12 @@ export function useScrollAnimation({
   rootMargin = "0px",
   once = true,
   delay = 0,
-  duration = 800,
+  duration = 400,
   direction = "up",
   type = "fade",
   distance = 50,
   staggerChildren = false,
-  staggerDelay = 100,
+  staggerDelay = 50,
 }: ScrollAnimationOptions = {}) {
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef<HTMLDivElement>(null)

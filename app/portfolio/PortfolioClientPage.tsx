@@ -6,6 +6,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Play } from "lucide-react"
+import { ScrollAnimation, ScrollReveal, ScrollStagger, ScrollParallax } from "@/components/scroll-animation"
+import { TextReveal } from "@/components/text-reveal"
+
 
 export default function PortfolioClientPage() {
   const [activeFilter, setActiveFilter] = useState("all")
@@ -189,29 +192,37 @@ export default function PortfolioClientPage() {
    
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-2">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white">
-            Ready to Start Your Project?
-          </h2>
-          <p className="text-pink-100 text-lg max-w-2xl mx-auto mb-8">
-            Let's collaborate to bring your creative vision to life. Contact us today for a free consultation.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button asChild size="lg" className="bg-white text-pink-600 hover:bg-pink-100">
-              <Link href="/contact">Get a Quote</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="bg-transparent border-white text-white hover:bg-white/10"
-            >
-              <Link href="/services">Explore Our Services</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+    <section className="py-16 md:py-14 relative overflow-hidden bg-gradient-to-b from-black to-zinc-900">
+  <ScrollParallax className="absolute inset-0" speed={0.2} direction="up">
+    <div className="absolute top-0 left-0 w-full h-full opacity-50">
+      <div className="absolute top-[80%] left-[10%] w-[30%] h-[30%] rounded-full bg-pink-600/40 blur-[80px]" />
+      <div className="absolute bottom-[20%] right-[10%] w-[40%] h-[40%] rounded-full bg-purple-600/10 blur-[100px]" />
+    </div>
+  </ScrollParallax>
+
+  <div className="container mx-auto px-4 text-center relative z-10">
+    <TextReveal
+      className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white"
+      delay={100}
+      highlight
+      highlightColor="rgba(255, 192, 203, 0.2)"
+    >
+      Ready to Start Your Project?
+    </TextReveal>
+
+    <ScrollAnimation type="fade" delay={300}>
+      <p className="text-purple-300 text-lg max-w-2xl mx-auto mb-8">
+        Let's collaborate to bring your creative vision to life. Contact us today for a free consultation.
+      </p>
+    </ScrollAnimation>
+
+    <ScrollStagger className="flex flex-col sm:flex-row justify-center gap-4" baseDelay={400} staggerDelay={200}>
+      <Button asChild size="lg" className="bg-pink-500 text-white hover:bg-pink-600">
+        <Link href="/contact">Get a Quote</Link>
+      </Button>
+    </ScrollStagger>
+  </div>
+</section>
     </div>
   )
 }
