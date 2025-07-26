@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             {/* <h3 className="text-lg font-bold text-white">WeCreate</h3> */}
-            <img src="/wc.png" alt="WeCreate Logo" className="h-20 w-auto mb-5" />  
+            <img src="/wc.webp" alt="WeCreate Logo" className="h-20 w-auto mb-5" />  
             <p className="text-zinc-400">
               Professional video and photo editing, production, and social media marketing services.
             </p>

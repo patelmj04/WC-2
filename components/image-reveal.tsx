@@ -30,7 +30,7 @@ export function ImageReveal({
   rootMargin = "0px",
   once = true,
   delay = 0,
-  duration = 800,
+  duration = 300,
   direction = "left",
   fill = false,
 }: ImageRevealProps) {

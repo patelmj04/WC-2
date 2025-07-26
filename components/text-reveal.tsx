@@ -27,7 +27,7 @@ export function TextReveal({
   rootMargin = "0px",
   once = true,
   delay = 0,
-  duration = 800,
+  duration = 200,
   staggerDelay = 30,
   as: Component = "div",
   direction = "up",

@@ -32,7 +32,7 @@ export function ScrollAnimation({
   rootMargin = "0px",
   once = true,
   delay = 0,
-  duration = 800,
+  duration = 100,
   direction = "up",
   type = "fade",
   distance = 50,
@@ -96,7 +96,7 @@ export function ScrollReveal({
   rootMargin = "0px",
   once = true,
   delay = 0,
-  duration = 800,
+  duration = 200,
 }: Omit<ScrollAnimationProps, "type" | "direction" | "distance" | "staggerChildren" | "staggerDelay" | "as">) {
   const { ref, isVisible } = useScrollAnimation({
     threshold,
@@ -112,7 +112,7 @@ export function ScrollReveal({
       className={cn(
         "relative overflow-hidden",
         {
-          "after:absolute after:inset-0 after:bg-background after:origin-right after:transition-transform after:duration-[800ms] after:ease-in-out": true,
+          "after:absolute after:inset-0 after:bg-background after:origin-right after:transition-transform after:duration-[200ms] after:ease-in-out": true,
           "after:transform-none": !isVisible,
           "after:translate-x-full": isVisible,
         },
@@ -123,7 +123,7 @@ export function ScrollReveal({
       }}
     >
       <div
-        className={cn("transition-opacity duration-[800ms] ease-in-out", {
+        className={cn("transition-opacity duration-[200ms] ease-in-out", {
           "opacity-0": !isVisible,
           "opacity-100": isVisible,
         })}
@@ -215,7 +215,7 @@ export function ScrollStagger({
   rootMargin = "0px",
   once = true,
   baseDelay = 0,
-  duration = 800,
+  duration = 200,
   direction = "up",
   distance = 30,
 }: {

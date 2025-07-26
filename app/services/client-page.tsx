@@ -28,7 +28,7 @@ export default function ServicesClientPage() {
         "Motion Graphics",
       ],
       link: "/services/video-production",
-      image: "/pro.jpg?height=600&width=800",
+      image: "/pro.webp?height=600&width=800",
     },
     {
       icon: <Camera className="h-12 w-12 text-pink-500" />,
@@ -43,7 +43,7 @@ export default function ServicesClientPage() {
         "Food Photography",
       ],
       link: "/services/photography",
-      image: "/ph4.png?height=600&width=800",
+      image: "/ph4.webp?height=600&width=800",
     },
     {
       icon: <PenTool className="h-12 w-12 text-amber-500" />,
@@ -58,7 +58,7 @@ export default function ServicesClientPage() {
         "HDR Processing",
       ],
       link: "/services/photo-editing",
-      image: "/pts.jpg?height=600&width=800",
+      image: "/pts.webp?height=600&width=800",
     },
     {
       icon: <Instagram className="h-12 w-12 text-pink-500" />,
@@ -73,7 +73,7 @@ export default function ServicesClientPage() {
         "Influencer Marketing",
       ],
       link: "/services/social-media-marketing",
-      image: "/smm1.jpg?height=600&width=800",
+      image: "/smm1.webp?height=600&width=800",
     },
     {
       icon: <Megaphone className="h-12 w-12 text-cyan-500" />,
@@ -88,7 +88,7 @@ export default function ServicesClientPage() {
         "Performance Analysis",
       ],
       link: "/services/content-strategy",
-      image: "/ph8.png?height=600&width=800",
+      image: "/ph8.webp?height=600&width=800",
     },
     {
       icon: <Palette className="h-12 w-12 text-amber-500" />,
@@ -103,7 +103,7 @@ export default function ServicesClientPage() {
         "Packaging Design",
       ],
       link: "/services/graphic-design",
-      image: "/ph9.png?height=600&width=800",
+      image: "/ph9.webp?height=600&width=800",
     },
   ]
   const { ref: pricingRef, isVisible: pricingVisible } = useIntersectionAnimation()
@@ -123,7 +123,7 @@ export default function ServicesClientPage() {
     preload="auto"
     className="absolute top-0 left-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
   >
-    <source src="/cs1.mp4" type="video/mp4" />
+    <source src="/cs1.webm" type="video/webm" />
     Your browser does not support the video tag.
   </video>
 

@@ -25,14 +25,14 @@ export default function MindBehindSection() {
 
           <TextReveal
             className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white"
-            delay={200}
+            delay={100}
             highlight
             highlightColor="rgba(245, 158, 11, 0.2)"
           >
             Meet Our Founder
           </TextReveal>
 
-          <ScrollAnimation type="fade" delay={300}>
+          <ScrollAnimation type="fade" delay={100}>
             <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
               The creative vision and leadership driving our innovative approach to visual storytelling.
             </p>
@@ -41,12 +41,12 @@ export default function MindBehindSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <ScrollAnimation type="fade" delay={400} className="block">
+            <ScrollAnimation type="fade" delay={100} className="block">
               <div className="relative aspect-square max-w-md mx-auto lg:ml-auto">
                 {/* <div className="absolute inset-0 bg-gradient-3 rounded-full opacity-20 blur-xl"></div> */}
                               <div className="absolute inset-0 rounded-full overflow-hidden border-2 border-white/20 shadow-lg">
                                 <Image
-                                  src="/Mj - Copy.png"
+                                  src="/Mj - Copy.webp"
                                   alt="Mit Patel - Founder & Creative Director"
                                   fill
                                   className="object-cover"
@@ -60,7 +60,7 @@ export default function MindBehindSection() {
           </div>
 
           <div className="space-y-6">
-            <ScrollAnimation type="fade" delay={500} className="block">
+            <ScrollAnimation type="fade" delay={100} className="block">
               <div>
                 <h3 className="text-2xl font-bold text-white">Mit Patel</h3>
                 <p className="text-amber-400 font-medium">Founder & Video Director</p>
@@ -78,14 +78,14 @@ export default function MindBehindSection() {
               </p>
             </div>
 
-            <ScrollAnimation type="fade" delay={700} className="block">
+            <ScrollAnimation type="fade" delay={100} className="block">
               <p className="text-zinc-400">
                 With over 5+ years of experience in the creative industry, he has worked with brands across
                 various sectors.
               </p>
             </ScrollAnimation>
 
-            <ScrollAnimation type="fade" delay={800} className="block">
+            <ScrollAnimation type="fade" delay={100} className="block">
               <p className="text-zinc-400">
                 Mit's background spans Video production, photography, and digital marketing, bringing a
                 multidisciplinary perspective to every project. They are passionate about mentoring the next generation
@@ -118,7 +118,7 @@ export default function MindBehindSection() {
               </span>
             </div>
 
-            <ScrollAnimation type="fade" delay={1000} className="block pt-4">
+            <ScrollAnimation type="fade" delay={5000} className="block pt-4">
               <Button asChild className="bg-gradient-3 hover:bg-amber-600 text-white">
                 <Link href="/about">Learn More About Our Team</Link>
               </Button>

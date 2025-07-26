@@ -24,42 +24,42 @@ export default function PortfolioPreview() {
       id: 1,
       title: "Brand Campaign Video",
       category: "Storyline Video",
-      image: "/Texium_YTB.png?height=800&width=3200",
+      image: "/Texium_YTB.webp?height=800&width=3200",
       link: "https://www.youtube.com/watch?v=oofwPoSecwI",
     },
     {
       id: 2,
       title: "Event Coverage",
       category: "Videography",
-      image: "/dc.png?height=600&width=800",
+      image: "/dc.webp?height=600&width=800",
       link: "https://drive.google.com/file/d/1VU6M_ZTXB3OnzLtH2GqBZ8lTyge03oqN/view?usp=drive_link",
     },
     {
       id: 3,
       title: "Social Media Management",
       category: "SMM",
-      image: "/smm.png?height=600&width=800",
+      image: "/smm.webp?height=600&width=800",
       link: "https://drive.google.com/file/d/1gQBUhrehkQiG6eSz9F5qlmRt3xRk4vz6/view?usp=drive_link",
     },
     {
       id: 4,
       title: "Corporate Event Coverage",
       category: "Event Coverage",
-      image: "/cec.png?height=600&width=800",
+      image: "/cec.webp?height=600&width=800",
       link: "https://drive.google.com/file/d/1bpMJUQ7pulYwo5kQs-gUnrNn4CVBmFNv/view?usp=sharing",
     },
     {
       id: 5,
       title: "Video Production",
       category: "Video Production",
-      image: "/vp.png?height=600&width=800",
+      image: "/vp.webp?height=600&width=800",
       link: "https://drive.google.com/file/d/1cAMP8BpAaBK6XlxIGXyzCPzmSnjg-Sdv/view?usp=drive_link",
     },
     {
       id: 6,
       title: "Brand Shoot/Reveal",
       category: "Design, Photography & Shoot",
-      image: "/bis.png?height=600&width=800",
+      image: "/bis.webp?height=600&width=800",
       link: "https://drive.google.com/file/d/1SwmNrD6toRd7ZgLqXvTmAN9YQo6lXhoF/view?usp=drive_link",
     },
   ]
@@ -121,7 +121,7 @@ export default function PortfolioPreview() {
             <Link key={item.id} href={item.link} className="group overflow-hidden rounded-lg">
               <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
                 <ImageReveal
-                  src={item.image || "/ph1.png"}
+                  src={item.image || "/ph1.webp"}
                   alt={item.title}
                   fill
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

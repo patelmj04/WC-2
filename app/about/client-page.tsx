@@ -19,37 +19,37 @@ export default function AboutClientPage() {
     {
       name: "Jayanti Patel",
       role: "Managing Director",
-      image: "/jp.png?height=400&width=400",
+      image: "/jp.webp?height=400&width=400",
       bio: "With over 30+ years of experience in the industry, leads our team with vision and expertise.",
     },
     {
       name: "Narayan Patel",
       role: "Managing Director",
-      image: "/NP.png?height=400&width=400",
+      image: "/NP.webp?height=400&width=400",
       bio: "With over 30+ years of experience in the industry, leads our team with vision and expertise.",
       },
     {
       name: "Dharmesh Patel",
       role: "Managing Director",
-      image: "/dp.png?height=400&width=400",
+      image: "/dp.webp?height=400&width=400",
       bio: "With over 15+ years of experience in the industry, leads our team with vision and expertise.",
       },
     {
       name: "Rinku Patel",
       role: "Company Strategist",
-      image: "/rp.png?height=400&width=400",
+      image: "/rp.webp?height=400&width=400",
       bio: "Rinku's innovative strategies have helped numerous brands increase their online presence.",
     },
     {
       name: "Harshi Patel",
       role: "Creative Director",
-      image: "/hp.png?height=400&width=400",
+      image: "/hp.webp?height=400&width=400",
       bio: "Harshi's creative skills transform photos into extraordinary visual stories.",
     },
     {
       name: "Mit Patel",
       role: "Founder & Video Director",
-      image: "/Profile.png?height=400&width=400",
+      image: "/Profile.webp?height=400&width=400",
       bio: "Mit brings static designs to life with captivating motion graphics and animations.",
     },
   ]
@@ -65,7 +65,7 @@ export default function AboutClientPage() {
     loop
     playsInline
   >
-    <source src="/10.mp4" type="video/mp4" />
+    <source src="/10.webm" type="video/webm" />
     Your browser does not support the video tag.
   </video>
 
@@ -170,7 +170,7 @@ export default function AboutClientPage() {
             <AnimatedText animation="fade-in" delay={900} className="block">
               <div className="relative aspect-square">
                 <Image
-                  src="/wc-1.png?height=60&width=60"
+                  src="/wc-1.webp?height=60&width=60"
                   alt="WeCreate Team"
                   fill
                   className="object-cover rounded-lg"

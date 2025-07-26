@@ -50,7 +50,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" onClick={closeMenu} className="flex items-center space-x-2">
             <img
-              src="/wc.png"
+              src="/wc.webp"
               alt="WeCreate Logo"
               className="h-auto w-auto max-h-12 sm:max-h-14 md:max-h-16"
             />

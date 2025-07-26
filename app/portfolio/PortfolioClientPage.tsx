@@ -15,82 +15,82 @@ export default function PortfolioClientPage() {
       id: 1,
       title: "Performance Videography",
       category: "videography",
-      image: "/dc.png?height=600&width=800",
+      image: "/dc.webp?height=600&width=800",
       videoUrl: "https://www.youtube.com/@danceclubrcoem8040",
     },
     {
       id: 2,
       title: "Gym Shoot & Edit",
       category: "photography",
-      image: "/gym.png?height=600&width=800",
+      image: "/gym.webp?height=600&width=800",
     },
     {
       id: 3,
       title: "Social Media Coverage",
       category: "social",
-      image: "/smc.png?height=600&width=800",
+      image: "/smc.webp?height=600&width=800",
       videoUrl: "https://www.instagram.com/p/DBLD96PNJzo/",
     },
     {
       id: 4,
       title: "Corporate Event Coverage",
       category: "video",
-      image: "/ed.png?height=600&width=800",
+      image: "/ed.webp?height=600&width=800",
       videoUrl: "https://drive.google.com/drive/u/0/folders/16TQqcMF4kCDUNt2mJEQQ1qejKJ1xVzKV",
     },
     {
       id: 5,
       title: "Full Event Coverage",
       category: "Videography",
-      image: "/fm.png?height=600&width=800",
+      image: "/fm.webp?height=600&width=800",
       videoUrl: "https://drive.google.com/drive/u/0/folders/16TQqcMF4kCDUNt2mJEQQ1qejKJ1xVzKV",
     },
     {
       id: 6,
       title: "Video Edits",
       category: "Editing",
-      image: "/e.png?height=600&width=800",
+      image: "/e.webp?height=600&width=800",
       videoUrl: "https://www.instagram.com/p/DKjRKr8ypSr/",
     },
     {
       id: 7,
       title: "Interior Design Showcase",
       category: "Videography",
-      image: "/id.png?height=600&width=800",
+      image: "/id.webp?height=600&width=800",
       videoUrl: "https://www.instagram.com/p/DJv4utAyKNj/?hl=en",  
     },
     {
       id: 8,
       title: "Social Media Content Creation",
       category: "social",
-      image: "/smca.png?height=600&width=800",
+      image: "/smca.webp?height=600&width=800",
       videoUrl: "https://www.instagram.com/reel/DKhKzIvB2hh/?hl=en",
     },
     {
       id: 9,
       title: "Brand Promotion Video",
       category: "video",
-      image: "/bd.png?height=600&width=800",
+      image: "/bd.webp?height=600&width=800",
       videoUrl: "http://instagram.com/p/DEmLHNhJ-Od/",
     },
     {
       id: 10,
       title: "Website Redesign",
       category: "design",
-      image: "/ns.png?height=600&width=800",
+      image: "/ns.webp?height=600&width=800",
     },
     {
       id: 11,
       title: "Youtube Shots",
       category: "Video Editing",
-      image: "/ytb.png?height=600&width=800",
+      image: "/ytb.webp?height=600&width=800",
       videoUrl: "https://www.youtube.com/shorts/kP36DGiqaik",
     },
     {
       id: 12,
       title: "Instagram Strategy",
       category: "social",
-      image: "/wcc.png?height=600&width=800",
+      image: "/wcc.webp?height=600&width=800",
       videoUrl: "https://www.instagram.com/reel/DE4OEmvK6kb/",
     },
   ]
@@ -113,7 +113,7 @@ export default function PortfolioClientPage() {
     preload="auto"
     className="absolute top-0w left-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
   ><div className="absolute inset-0 bg-black/90 z-0" />
-    <source src="/12.mp4" type="video/mp4" />
+    <source src="/12.webm" type="video/webm" />
     Your browser does not support the video tag.
   </video>
   {/* Overlay (optional for darkening the video) */}

@@ -41,7 +41,7 @@ export default function ContactPageClient() {
     loop
     playsInline
   >
-    <source src="/cu.mp4" type="video/mp4" />
+    <source src="/cu.webm" type="video/webm" />
     Your browser does not support the video tag.
   </video>
 

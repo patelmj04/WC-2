@@ -27,7 +27,7 @@ export default function HeroSection() {
           className="w-full h-full object-cover"
           poster="/ph2-b.jpeg?height=1080&width=1920"
         >
-          <source src="/p1.mp4" type="video/mp4" />
+          <source src="/p1.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
         {/* Overlay */}

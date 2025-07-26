@@ -16,7 +16,7 @@ export default function MindBehindPreview() {
               {/* <div className="absolute inset-0 bg-gradient-3 rounded-full opacity-20 blur-xl"></div> */}
               <div className="absolute inset-0 rounded-full overflow-hidden border-2 border-white/20 shadow-lg">
                 <Image
-                  src="/Mj - Copy.png"
+                  src="/Mj - Copy.webp"
                   alt="Mit Patel - Founder & Creative Director"
                   fill
                   className="object-cover"
