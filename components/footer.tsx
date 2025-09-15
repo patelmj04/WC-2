@@ -83,8 +83,8 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-cyan-500" />
-                <a href="mailto:info@wecreate.com" className="text-zinc-400 hover:text-cyan-400 transition-colors">
-                  wecreated31553
+                <a href="mailto:wecreated31553@gmail.com" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  wecreated31553@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
