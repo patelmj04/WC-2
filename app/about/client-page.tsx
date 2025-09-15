@@ -42,12 +42,12 @@ export default function AboutClientPage() {
       image: "/rp.webp?height=400&width=400",
       bio: "Rinku's innovative strategies have helped numerous brands increase their online presence.",
     },
-    {
-      name: "Harshi Patel",
-      role: "Creative Director",
-      image: "/hp.webp?height=400&width=400",
-      bio: "Harshi's creative skills transform photos into extraordinary visual stories.",
-    },
+    // {
+    //   name: "Harshi Patel",
+    //   role: "Creative Director",
+    //   image: "/hp.webp?height=400&width=400",
+    //   bio: "Harshi's creative skills transform photos into extraordinary visual stories.",
+    // },
     {
       name: "Mit Patel",
       role: "Founder & Video Director",
