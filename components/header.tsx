@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -49,9 +50,12 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" onClick={closeMenu} className="flex items-center space-x-2">
-            <img
+            <Image
               src="/wc.webp"
               alt="WeCreate Logo"
+              width={64}
+              height={64}
+              priority
               className="h-auto w-auto max-h-12 sm:max-h-14 md:max-h-16"
             />
           </Link>

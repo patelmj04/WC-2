@@ -24,6 +24,7 @@ export default function HeroSection() {
           muted
           loop
           playsInline
+          preload="metadata"
           className="w-full h-full object-cover"
           poster="/ph2-b.jpeg?height=1080&width=1920"
         >

@@ -6,8 +6,11 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // Enable Next.js image optimization and modern formats
   images: {
-    unoptimized: true,
+    formats: ["image/avif", "image/webp"],
+    // keep images optimized (do not force unoptimized)
+    unoptimized: false,
   },
 }
 

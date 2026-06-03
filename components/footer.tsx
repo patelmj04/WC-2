@@ -3,6 +3,7 @@
 import type React from "react"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Instagram, Facebook, Twitter, Youtube, Mail, Phone, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -14,7 +15,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             {/* <h3 className="text-lg font-bold text-white">WeCreate</h3> */}
-            <img src="/wc.webp" alt="WeCreate Logo" className="h-20 w-auto mb-5" />  
+            <Image src="/wc.webp" alt="WeCreate Logo" width={80} height={80} priority className="h-20 w-auto mb-5" />  
             <p className="text-zinc-400">
               Professional video and photo editing, production, and social media marketing services.
             </p>

@@ -122,7 +122,7 @@ export default function ServicesClientPage() {
     loop
     muted
     playsInline
-    preload="auto"
+    preload="metadata"
     className="absolute top-0 left-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
   >
     <source src="/cs1.webm" type="video/webm" />

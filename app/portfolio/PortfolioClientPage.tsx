@@ -104,26 +104,24 @@ export default function PortfolioClientPage() {
       : portfolioItems.filter((item) => item.category === activeFilter)
 
   return (
-   
-   <div className="flex flex-col bg-black text-white">
+    <div className="relative flex flex-col bg-black text-white">
 
-  {/* Background Video */}
-  <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    preload="auto"
-    className="absolute top-0w left-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
-  ><div className="absolute inset-0 bg-black/90 z-0" />
-    <source src="/12.webm" type="video/webm" />
-    Your browser does not support the video tag.
-  </video>
-  {/* Overlay (optional for darkening the video) */}
-  
-     
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="metadata"
+        className="absolute top-0 left-0 w-full h-full object-cover opacity-30 pointer-events-none z-0"
+      >
+        <source src="/12.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute inset-0 bg-black/90 z-10" />
+
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-black">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-black relative z-20">
         <div className="container mx-auto px-4 text-center">
           <Badge variant="outline" className="px-3 py-1 mb-4 border-cyan-500 text-cyan-400">
             Our Portfolio

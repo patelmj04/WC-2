@@ -66,6 +66,7 @@ export default function AboutClientPage() {
     muted
     loop
     playsInline
+    preload="metadata"
   >
     <source src="/10.webm" type="video/webm" />
     Your browser does not support the video tag.

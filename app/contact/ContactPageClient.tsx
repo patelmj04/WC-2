@@ -40,6 +40,7 @@ export default function ContactPageClient() {
     muted
     loop
     playsInline
+    preload="metadata"
   >
     <source src="/cu.webm" type="video/webm" />
     Your browser does not support the video tag.
